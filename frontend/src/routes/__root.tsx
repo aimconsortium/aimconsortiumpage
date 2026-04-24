@@ -8,7 +8,6 @@ const RootLayout = () => {
     <div className="min-h-screen">
       <div className="min-h-screen">
         <Nav />
-        <hr></hr>
         <Outlet />
       </div>
       {/* <TanStackRouterDevtools /> */}
