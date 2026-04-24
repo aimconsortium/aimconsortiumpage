@@ -15,10 +15,7 @@ body {
   /* custom fonts */
   --font-sans: "Inter", sans-serif, -apple-system, "Segoe UI";
   /* custom spacing */
-  --nav-height: calc(var(--spacing) * 24);
-  --nav-top-space: calc(var(--spacing) * 24 + 2rem);
-  --nav-top-space-large: calc(var(--spacing) * 24 + 4rem);
-  --nav-top-space-larger: calc(var(--spacing) * 24 + 6rem);
+
   --section-min-height: calc(50vh - 100px);
   --section-px-mobile: calc(var(--spacing) * 4);
   --section-px-sm: calc(var(--spacing) * 8);
@@ -28,7 +25,16 @@ body {
   --section-py-sm: calc(var(--spacing) * 12);
   --section-py-lg: calc(var(--spacing) * 24);
   --section-py-xl: calc(var(--spacing) * 50);
+  
+  /* nav */
+  --nav-height: calc(var(--spacing) * 16);
+  --nav-top-space: calc(var(--spacing) * 24 + 2rem);
+  --nav-top-space-large: calc(var(--spacing) * 24 + 4rem);
+  --nav-top-space-larger: calc(var(--spacing) * 24 + 6rem);
   --nav-top-gap: calc(var(--spacing) * 4);
+  --nav-padding: calc(var(--spacing) * 2);
+  --nav-rounding: calc(var(--spacing) * 8);
+  --nav-mobile-spacing-nudge: calc(var(--spacing) * 5);
 
   /* padding */
   --card-padding: calc(var(--spacing) * 5);
@@ -36,8 +42,6 @@ body {
   --card-rounding: var(--radius-3xl);
   --card-rounding-mobile: var(--radius-sm);
   --container-padding: calc(var(--spacing) * 6);
-  --nav-padding: calc(var(--spacing) * 2);
-  --nav-rounding: calc(var(--spacing) * 8);
   /* sizing */
   --social-icon-size: calc(var(--spacing) * 10);
 }
